@@ -2,10 +2,10 @@ import 'dart:ui';
 // import 'package:googleapis/sheets/v4.dart';
 import 'package:hive/hive.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
-import "package:googleapis_auth/auth_io.dart";
+
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:url_launcher/url_launcher.dart';
+
 // import 'package:googleapis/calendar/v3.dart';
 
 import 'package:todo/adapters/todo_adapter.dart';
@@ -223,7 +223,7 @@ class _AddTodoState extends State<AddTodo> {
       title: Text(
         "Add task",
         style: TextStyle(
-          color: Colors.teal,
+          color: Colors.lime,
           fontWeight: FontWeight.bold,
           fontSize: 26,
         ),
